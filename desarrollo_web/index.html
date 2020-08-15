@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oscar Martinez</title>
+        <link rel="icon" type="image/png" href="img\helado.png"/>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header class="header">
+            <div>
+                <figure class="logo">
+                    <img src="img/oscarin.jpg" alt="Logo de Oscar Mtz"/>
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="#portfolio">Portafolio</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#experience">Experiencia</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#contact">Trabajemos Juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <h1>
+                Hola! <br/> <strong>Bienvenido</strong> a mi sitio web
+            </h1>
+            <img src="img/ninoloco.jpg" width="500" alt="No existe nino loco">
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <h3 class="project_title">Business Bots</h3>
+                <h6 class="project_software" >Blue Prism</h6>
+                <p class="project_date"><small><strong>Fecha:</strong> 01/08/2019</small></p>
+                <p class="project_url"><small><strong>Puedes verlo en: www.linkedin.com/in/oscarmartinezl</strong></small></p>
+                <p class="project_description">RPA (Robotic Process Automation). Experience with business analysis, including process mapping and design. Database Skills. Work closely with Developers to assist with the creation of their solution design.</p>
+                <figure class="project_imageContainer">
+                    <img class="project_image" src="img/blueprism.png" alt="bp" width="300">
+                </figure>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Mas sobre mi experiencia</h2>
+            <article class="event">
+                <figure class="event_imageContainer" >
+                    <img class="event_image" src="img/udem.jpg" alt="Udem Picture" width="500">
+                </figure>
+                <h3 class="event_title" >Udem Engineer</h3>
+                <p class="event_description">Ingeniero egresado de la Universidad de Monterrey de la carrera de Ingeniería en Tecnologías Electrónicas y Robótica</p>
+                <a class="event_cv" href=".\curriculum\cv.html" target="_blank">Ver Curriculum</a>
+            </article>
+        </section>
+
+
+        <section id="contact" class="contact" >
+            <form action="/suscripcion/" class="form_email">
+                <h3>Trabajemos Juntos</h3>
+                <!--<label for="contact">Go to email</label>-->
+                <input type="text" placeholder="Escriba su email">
+                <!--<input type="submit" value="Send">-->
+                <button>
+                    Send
+                </button>
+            </form>
+        </section>
+
+        <section class="footer">footer</section>
+    </body>
+</html>
